@@ -26,7 +26,7 @@ fun HelloComposeApp() {
             modifier = Modifier.fillMaxSize(),
             color = MaterialTheme.colorScheme.background
         ) {
-            var name by remember { mutableStateOf("Єгор Карпенко") }
+            var name by remember { mutableStateOf("Єгор Карпенко K-41") }
             Column {
                 Text(
                     text = "Привіт, $name!",
